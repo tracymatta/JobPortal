@@ -1,15 +1,16 @@
-To install this project:<br>
--create a .env file by copying it from .env.example<br>
--run composer install<br>
--run npm install<br>
--create a new database in phpyadmin and change the name in .env file<br>
--run php artisan migrate<br>
--run php artisan db:seed --class=CategoriesTableSeeder<br>
--run php artisan db:seed --class=CountriesTableSeeder<br>
-and that should work!<br>
-<br>
-github repo for this project: https://github.com/TaniaZaitouny/project.git 
+# Job Portal 
 
-Students:
-Tania Zaitouny 102117
-Tracy Matta 101714
+Welcome to our job portal project!
+
+This webapp was built for a university project in the course Server Side Web Development.
+
+To run this project:
+-
+
+-Create a .env file by copying it from .env.example <br>
+-Run php artisan key:generate <br>
+-Run npm install <br>
+-Create a new database in phpyadmin and change the name in the .env file <br>
+-Run php artisan migrate <br>
+-Run php artisan db:seed --class=CategoriesTableSeeder <br>
+-Run php artisan db:seed --class=CountriesTableSeeder <br>
